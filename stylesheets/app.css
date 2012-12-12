@@ -1,0 +1,122 @@
+body{
+background: #00F url('../images/outlets.png');
+color: #ddd;
+
+}
+
+.header{
+	margin:3em auto 3em auto;
+}
+.logo {
+	color: white;
+}
+.logo h1{ 
+	font-family: 'Quicksand', sans-serif; 
+	font-size: 3em; 
+	font-weight: normal;
+	text-align: center;
+
+}
+
+
+
+
+.logo h1:last-child{
+	font-size: 1.24em;
+
+}
+.nav {
+	margin: 0 auto;
+	max-width: 600px;
+}
+
+.nav a{
+	
+	display: block;
+	float: left;
+	position: relative;
+	width: 33.333%;
+	max-width: 200px;
+	text-align: center;
+	}
+
+.nav h2{
+	position:absolute;
+	top:0;
+	left:0;
+	right:0;
+	text-align: center;
+	font-size: 1.8em;
+	color: #fff;
+	z-index: 2;
+	font-family: 'Raleway', sans-serif;
+	font-weight: normal;
+}
+
+/*.small.nav h2 {
+	position: relative;
+	font-size: 1.3em;
+	margin-bottom: 1em;
+
+}*/
+
+.nav a img{
+	opacity: 0.5;
+
+
+
+}
+
+.nav a:hover img{
+	opacity: 1;
+}
+
+.banana{
+	/*background-color: yellow;*/
+padding: 0;
+}
+
+.tiny.nav {
+	overflow: hidden;
+	height: 50px;
+	margin-bottom: 3em;
+}
+
+.boxes{
+	position:absolute;
+	top:0;
+	left:0;
+	right:0;
+
+	color: #fff;
+	z-index: 2;
+
+	display: block;
+	float: center;
+	position: relative;
+	/*width: 100%;
+	max-width: 1200px;*/
+	text-align: center;
+}
+
+.boxes li {
+	/*background-color: red;*/
+}
+
+
+.gallery{
+	list-style: none;
+}
+
+.gallery  {
+}
+.gallery > li{
+	padding: 0!important;
+
+}
+.gallery > li img {
+	/*width: 100%;*/
+	display: block;
+}
+
+
